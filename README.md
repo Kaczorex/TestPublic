@@ -16,7 +16,7 @@ Aplikacja Laravel + Vue3 + Inertia.js integrująca się z publicznym API theDogA
 
 ## Instalacja
 - Stworzyć na podstawie .env.example .env
-- Wystarczy dodać Client Id oraz Client Secret do .env oraz klucz z https://thedogapi.com/ 
+- Wystarczy dodać Client Id oraz Client Secret https://www.nyckel.com/console/security oraz klucz z https://thedogapi.com/ do .env 
 - wejść w folder i wpisać `make start`
 
 # 1. Wzorce projektowe zastosowane w Twoim projekcie
