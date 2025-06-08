@@ -1,0 +1,9 @@
+services:
+  test-app:
+    build: .
+    container_name: "test-app"
+    ports:
+      - "8085:80"    # Apache
+      - "3000:3000"  # Node.js (npm run dev)
+    volumes:
+      - ../:/var/www/html
