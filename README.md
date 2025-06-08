@@ -14,6 +14,11 @@ Aplikacja Laravel + Vue3 + Inertia.js integrująca się z publicznym API theDogA
 - Modal do rozpoznawania rasy na podstawie zdjęcia
 - Obsługa błędów i logowanie
 
+## Instalacja
+- Stworzyć na podstawie .env.example .env
+- Wystarczy dodać Client Id oraz Client Secret do .env oraz klucz z https://thedogapi.com/ 
+- wejść w folder i wpisać `make start`
+
 # 1. Wzorce projektowe zastosowane w Twoim projekcie
 
 ## a) Repository Pattern
